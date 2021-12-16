@@ -1,0 +1,189 @@
+@font-face {
+    font-family: font;
+    src: url(../font/OpenSansCondensed-Bold.ttf);
+}
+
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: font;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    max-width: 65px;
+    margin-top: -15px;
+}
+
+/* header */
+
+.header {
+    margin-top: 35px;
+}
+
+.block-head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-head-items {
+    display: flex;
+    max-width: 700px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.nav-head-item {
+    color: black;
+}
+
+/* booking */
+
+.booking {
+    margin: 20px 0;
+}
+
+.booking-items {
+    background-color: bisque;
+    width: 100%;
+}
+
+.book-item0 {
+    text-align: center;
+    font-size: 26px;
+
+}
+
+.book-item {
+    text-align: center;
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+/* info */
+
+.info {
+    margin: 15px 0 15px 0;
+}
+
+.info-item1 {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.info-item2 {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.info-item3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.photo-card {
+    max-width: 175px;
+}
+.card {
+    max-width: 250px;
+    text-align: center;
+    border: 1px solid bisque;
+}
+
+/* search */
+
+.search-items {
+    text-align: center;
+    align-items: center;
+}
+
+.search-item {
+    max-width: 250px;
+    width: 100%;
+    height: 35px;
+    margin: 0 15px;
+}
+
+.search-btn {
+    margin: 25px 0;
+}
+
+.btn-search {
+    background-color: bisque;
+    max-width: 100px;
+    width: 100%;
+    padding: 10px 25px;
+}
+
+/* stock */
+
+.stock-items {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.stock-it {
+    margin: 20px 0;
+}
+
+.stock-item {
+    margin: 0 auto;
+    max-width: 500px;
+    border: 1px solid bisque;
+}
+
+.stock-img {
+    max-width: 500px;
+    height: 250px;
+}
+
+/* subscription */
+
+.email {
+    outline: none;
+    max-width: 350px;
+    width: 100%;
+    height: 25px;
+    position: absolute;
+    right: 15%;
+}.btn-submit {
+    position: absolute;
+    right: 10%;
+    height: 25px;
+}
+
+/* footer */
+
+.footer {
+    margin-top: 75px;
+    background-color: bisque;
+}
+
+.footer-items {
+    padding: 25px 0;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+    min-width: 800px;
+    width: 100%;
+}
